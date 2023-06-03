@@ -2,8 +2,8 @@
 	"compilerOptions": {
 		"baseUrl": "src",
 		"esModuleInterop": true,
-		"module": "NodeNext",
-		"moduleResolution": "nodenext",
+		"module": "ES6",
+		"moduleResolution": "node",
 		"target": "ES6",
 		"sourceMap": true,
 		"outDir": "dist",
