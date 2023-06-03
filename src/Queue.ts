@@ -21,6 +21,10 @@ export default class Queue<T> {
 
     if (this.isEmpty()) {
       this.tail = this.head = node;
+
+      this.length++;
+
+      return;
     }
 
     this.tail.next = node;
