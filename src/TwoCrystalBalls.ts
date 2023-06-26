@@ -1,7 +1,7 @@
 export default function twoCrystalBalls(breaks: boolean[]): number {
   let jumpAmount = Math.floor(Math.sqrt(breaks.length));
 
-  let i, j;
+  let i: number, j: number;
 
   for (i = jumpAmount; i < breaks.length; i += jumpAmount) {
     if (breaks[i]) {
